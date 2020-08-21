@@ -9,4 +9,4 @@ export const StyledTitle = styled.h1`
    text-align: center;
    margin-bottom: 2rem;
    margin-top: 3rem; 
-`; 
+`;  

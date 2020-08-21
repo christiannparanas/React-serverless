@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import {
+  StyledGame,
+  StyledScore,
+  StyledTimer,
+  StyledCharacter,
+} from "../styled/Game";
 
 export default function Game() {
-   return (
-      <div>
-         <h1>Game</h1>
-      </div>
-   )
+  return (
+    <StyledGame>
+      <StyledScore>Score: 8</StyledScore>
+      <StyledCharacter>A</StyledCharacter>
+      <StyledTimer>Timer: 5s</StyledTimer>
+    </StyledGame>
+  );
 }
